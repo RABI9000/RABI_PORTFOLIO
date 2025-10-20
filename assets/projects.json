@@ -1,0 +1,34 @@
+{
+  "revenue_insights": {
+    "title": "Revenue Performance Insights Platform",
+    "date": "Jan 2025",
+    "summary": "Responsive financial analytics web app with interactive Chart.js dashboards and Bootstrap UI.",
+    "tools": ["HTML", "CSS", "JavaScript", "Chart.js", "Bootstrap"],
+    "bullets": [
+      "Interactive charts and performance KPIs with Bootstrap-enhanced layouts.",
+      "Advanced analysis and strategic recommendations; actionable insights for banking ops and risk.",
+      "Optimized UX for 10+ metrics; integrated 500+ revenue data points for scalable analytics."
+    ]
+  },
+  "churn_prediction": {
+    "title": "Customer Churn Prediction",
+    "date": "Mar 2025",
+    "summary": "XGBoost-based churn model with Streamlit dashboard; precise churn analysis on 10k+ records.",
+    "tools": ["Python", "XGBoost", "Streamlit"],
+    "bullets": [
+      "Built interactive dashboard to visualize churn risk and retention strategies.",
+      "~85% accuracy via feature selection and hyperparameter tuning.",
+      "Added dynamic analytics to improve forecasting and decision-making."
+    ]
+  },
+  "credit_card_fraud": {
+    "title": "ML-based Credit Card Fraud Detection",
+    "date": "May 2025",
+    "summary": "Fraud detection pipeline with SMOTE + Random Forest/LR; 93.5% precision, ROC-AUC 0.89.",
+    "tools": ["Python", "SMOTE", "Random Forest", "Logistic Regression"],
+    "bullets": [
+      "Processed 28k+ transactions; addressed class imbalance with SMOTE.",
+      "5-fold cross-validation; visualized key metrics for data-driven decisions."
+    ]
+  }
+}

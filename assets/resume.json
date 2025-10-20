@@ -1,0 +1,91 @@
+{
+  "name": "Rabi Shaikh",
+  "contact": {
+    "email": "mohammad.rabi100@gmail.com",
+    "phone": "+91 913781213",
+    "location": "Mumbai, India",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/rabi" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/rabi" }
+    ]
+  },
+  "skills": [
+    "Python",
+    "JavaScript",
+    "SQL",
+    "HTML/CSS",
+    "C/C++",
+    "TensorFlow",
+    "Streamlit",
+    "Chart.js",
+    "Bootstrap",
+    "Flask",
+    "AWS",
+    "MongoDB",
+    "Git",
+    "VS Code",
+    "Power BI",
+    "Unix/Linux"
+  ],
+  "experience": [
+    {
+      "role": "Machine Learning Intern (Onsite)",
+      "company": "Sakura Biotech",
+      "location": "Mumbai, India",
+      "period": "Jun 2025 – Aug 2025",
+      "summary": "Built a real-time algae stage monitoring system with time-series forecasting and operational dashboards.",
+      "bullets": [
+        "Developed and deployed an LSTM model trained on 1,400+ sinusoidal pH readings; achieved 92.4% accuracy (MAE: 0.12) for 30-step forecasting.",
+        "Integrated Raspberry Pi with EZO-pH sensor to stream data every 10s; triggered predictions via Flask endpoints.",
+        "Deployed on AWS with anomaly detection and support for multi-sensor expansion.",
+        "Built automated live charts, real-time reports, and MIS dashboards using Chart.js and JavaScript to improve decision-making."
+      ]
+    },
+    {
+      "role": "Revenue Performance Insights Platform",
+      "company": "Personal Project",
+      "period": "Jan 2025",
+      "summary": "Responsive web platform for financial metrics and insights using interactive charts.",
+      "bullets": [
+        "Built with HTML, CSS, JavaScript, Chart.js, and Bootstrap.",
+        "Designed interactive charts, real-time performance KPIs, and dashboards.",
+        "Optimized UX and data pipelines to support 500+ revenue data entries with scalable analytics."
+      ]
+    },
+    {
+      "role": "Customer Churn Prediction",
+      "company": "Personal Project",
+      "period": "Mar 2025",
+      "summary": "ML system to predict churn using XGBoost with an interactive Streamlit dashboard.",
+      "bullets": [
+        "Engineered model using Python/XGBoost; tuned features and hyperparameters.",
+        "Built dashboard to visualize churn metrics and strategies; achieved ~85% accuracy.",
+        "Implemented data visualization and advanced analytics for insights."
+      ]
+    },
+    {
+      "role": "Credit Card Fraud Detection",
+      "company": "Personal Project",
+      "period": "May 2025",
+      "summary": "Fraud detection pipeline with class-imbalance handling and model evaluation.",
+      "bullets": [
+        "Applied SMOTE and trained Random Forest and Logistic Regression; reached 93.5% precision and 0.89 ROC-AUC.",
+        "Performed 5-fold cross-validation and visualized key metrics for decision-making."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering in Information Technology",
+      "school": "Veermata Jijabai Technological Institute (VJTI)",
+      "location": "Mumbai, India",
+      "period": "2022 – 2026"
+    },
+    {
+      "degree": "Higher Secondary Education (12th Grade)",
+      "school": "Saket College of Arts, Science & Commerce",
+      "location": "Mumbai, India",
+      "period": "2020 – 2022"
+    }
+  ]
+}

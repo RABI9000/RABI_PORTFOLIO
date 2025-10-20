@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <rect x="6" y="6" width="52" height="52" rx="10" fill="#0b0b0f"/>
+  <g transform="translate(32 32)">
+    <path d="M-18-10h36v20h-36z" fill="#ff9900"/>
+    <text x="0" y="6" font-family="monospace" font-size="14" text-anchor="middle" fill="#0b0b0f">AWS</text>
+  </g>
+</svg>

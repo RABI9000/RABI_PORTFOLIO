@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Personal portfolio — dark, minimal, fast. Projects, experience, and contact." />
+    <meta name="theme-color" content="#0b0b0f" media="(prefers-color-scheme: dark)">
+    <meta name="color-scheme" content="dark light" />
+    <title>Portfolio — Dark Minimal</title>
+
+    <link rel="preload" href="styles.css" as="style" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  </head>
+  <body>
+    <div id="loader" class="loader" aria-hidden="true">
+      <div class="loader-inner">
+        <div class="loader-ring"></div>
+        <p class="loader-text" data-phrases='["Hi","नमस्ते","مرحبا","Hola","Bonjour","Ciao","Olá","안녕하세요","こんにちは","Здравствуйте"]'>Hi</p>
+      </div>
+    </div>
+
+    <div class="bg-grid" aria-hidden="true"></div>
+    <canvas class="bg-particles" aria-hidden="true"></canvas>
+    <div class="scroll-progress" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-reveal>
+      <div class="container header-grid">
+        <a class="brand" href="#home" aria-label="Home">RS</a>
+        <nav class="nav" aria-label="Primary">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#tools">Tools &amp; Tech</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button id="games-btn" class="theme-toggle" aria-label="Open games" title="Play games">🎮 Games</button>
+      </div>
+    </header>
+
+    <main id="main" class="site-main">
+      <section id="home" class="section hero" data-reveal>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <h1 class="typed-heading">
+              <span class="typing" data-phrases='["Designer-minded engineer crafting fast, minimal experiences.", "Building modern, minimal, high-performance interfaces.", "Shipping smooth, focused interactions that feel effortless."]'>
+                <span class="typing-text">Designer-minded engineer crafting fast, minimal experiences.</span>
+                <span class="cursor" aria-hidden="true">▍</span>
+              </span>
+            </h1>
+            <p class="hello-egg" data-reveal="zoom-in">
+              <span class="hello-text">Hi, I'm Rabi Shaikh</span>
+              <span class="wave" aria-hidden="true" title="👋">👋</span>
+            </p>
+            <p>Final-year IT engineer based in Mumbai, combining technology and leadership to drive impactful solutions.</p>
+            <div class="actions">
+              <a class="btn primary" href="#projects">View Projects</a>
+              <a class="btn" href="assets/Resume.pdf" download data-resume>Download Resume</a>
+            </div>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <canvas class="web-canvas" aria-hidden="true"></canvas>
+            <div class="orb"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section" data-reveal>
+        <div class="container">
+          <h2 class="section-title">Projects</h2>
+          <div class="grid cards">
+            <article class="card project-card" data-project-id="revenue_insights" tabindex="0">
+              <img loading="lazy" src="assets/img/placeholder-1.webp" alt="Revenue Performance Insights Platform cover" width="640" height="400" />
+              <div class="card-body">
+                <h3 class="project-title">Revenue Performance Insights Platform</h3>
+                <p class="project-desc">Interactive financial analytics with Chart.js and Bootstrap.</p>
+                <div class="tags project-tags"></div>
+              </div>
+            </article>
+            <article class="card project-card" data-project-id="churn_prediction" tabindex="0">
+              <img loading="lazy" src="assets/img/linkden photo.jpeg" alt="Customer Churn Prediction cover" width="640" height="400" />
+              <div class="card-body">
+                <h3 class="project-title">Customer Churn Prediction</h3>
+                <p class="project-desc">XGBoost model with Streamlit dashboard; ~85% accuracy.</p>
+                <div class="tags project-tags"></div>
+              </div>
+            </article>
+            <article class="card project-card" data-project-id="credit_card_fraud" tabindex="0">
+              <img loading="lazy" src="assets/img/placeholder-3.webp" alt="Credit Card Fraud Detection cover" width="640" height="400" />
+              <div class="card-body">
+                <h3 class="project-title">Credit Card Fraud Detection</h3>
+                <p class="project-desc">SMOTE + RF/LR with 93.5% precision; ROC-AUC 0.89.</p>
+                <div class="tags project-tags"></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section" data-reveal>
+        <div class="container about-grid">
+          <div class="about-visual" aria-hidden="true">
+            <div class="avatar">
+              <img src="assets/img/linkden photo.jpeg" alt="Rabi Shaikh" width="280" height="280" loading="lazy" />
+              <svg class="face-overlay" viewBox="0 0 100 100" aria-hidden="true">
+                <circle cx="50" cy="50" r="49" fill="transparent" stroke="rgba(255,255,255,.2)" stroke-width="2"/>
+                <circle class="eye eye-l" cx="35" cy="42" r="4" fill="#fff"/>
+                <circle class="eye eye-r" cx="65" cy="42" r="4" fill="#fff"/>
+                <path class="smile" d="M34 62 Q50 74 66 62" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </div>
+          <div class="about-copy">
+            <h2 class="section-title">About</h2>
+            <p>Loading profile…</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="tools" class="section" data-reveal>
+        <div class="container">
+          <h2 class="section-title">Tools &amp; Tech</h2>
+          <div class="carousel-3d" data-rotate>
+            <ul class="carousel-ring" aria-label="Technology carousel"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section" data-reveal>
+        <div class="container">
+          <h2 class="section-title">Contact</h2>
+          <p>Open to collaborations and roles. Reach out:</p>
+          <ul class="contact-list">
+            <li><a href="mailto:mohammad.rabi100@gmail.com">mohammad.rabi100@gmail.com</a></li>
+            <li><a href="https://github.com/RABI9000" rel="me noopener" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/rabishaikh/" rel="me noopener" target="_blank">LinkedIn</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" data-reveal>
+      <div class="container footer-grid">
+        <small>© <span id="year"></span> Rabi Shaikh</small>
+        <a href="#home" class="to-top" aria-label="Back to top">↑</a>
+      </div>
+    </footer>
+
+    <div class="modal" id="project-modal" aria-hidden="true" role="dialog" aria-modal="true">
+      <div class="modal-backdrop"></div>
+      <div class="modal-dialog" role="document" tabindex="-1">
+        <button class="modal-close" aria-label="Close">×</button>
+        <div class="modal-content">
+          <h3 class="modal-title"></h3>
+          <p class="modal-desc"></p>
+          <ul class="modal-tags"></ul>
+          <div class="modal-bullets"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="games-modal" aria-hidden="true" role="dialog" aria-modal="true">
+      <div class="modal-backdrop"></div>
+      <div class="modal-dialog" role="document" tabindex="-1">
+        <button class="modal-close" aria-label="Close">×</button>
+        <div class="modal-content">
+          <h3 class="modal-title">Mini Games</h3>
+          <div class="games-toolbar">
+            <button class="btn" data-game="snake">Snake</button>
+            <button class="btn" data-game="pong">Paddle</button>
+            <button class="btn" data-game="stop">Stop</button>
+          </div>
+          <div id="game-score" class="game-score" style="color:#fff; margin:.25rem 0 .5rem;">Score: 0</div>
+          <canvas id="game-canvas" width="480" height="320" style="background:var(--surface); border:1px solid var(--ring); border-radius:12px; width:min(92vw,600px); height:auto"></canvas>
+          <p class="modal-desc" style="margin-top:.5rem;color:var(--muted)">Tip: use arrow keys (Snake) or ←/→ (Paddle).</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts.js" defer></script>
+  </body>
+</html>
